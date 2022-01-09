@@ -1,7 +1,6 @@
 
 rollno=int(input("enter your roll no.:"))
 name=(input("enter your name: "))
-gender=input("enter gender: ")
 standard=int(input("enter class: "))
 english=int(input("enter english marks: "))
 physics=int(input("enter physics marks: "))
@@ -13,10 +12,9 @@ print(obtained_marks)
 percentage=obtained_marks/500*100
 print(percentage)
 
-print("----------STUDENTS MARKSHEET---------")
+print("--------------------STUDENTS MARKSHEET---------------------")
 print("YOUR ROLL NO. IS: "+str(rollno))
 print("YOUR NAME IS: "+name)
-print("YOUR GENDER IS: "+gender)
 print("YOUR CLASS IS: "+str(standard))
 print("TOTAL MARKS ARE: 500")
 print("OBTAINED MARKS ARE: "+str(obtained_marks))
